@@ -80,7 +80,7 @@ def generate_pdg_text(csv_path_root: str, source_file_root: str) -> List[List[st
 
 if __name__ == '__main__':
     # 自动生成组合
-    csv_path_root = "data/demo/csv/train-dataset/home/thinkstation02/Desktop/hxfile/DeepWukong/data/demo/train-dataset"
-    source_file_root = "data/demo/train-dataset"
+    csv_path_root = " "
+    source_file_root = " "
 
     pdg_texts_list = generate_pdg_text(csv_path_root, source_file_root)
