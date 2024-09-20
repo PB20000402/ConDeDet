@@ -64,8 +64,8 @@ def add_comments_to_code(code_path, pdg_path, output_dir):
             f.write(line)
 
 # Process all .c files and their corresponding PDG.txt files in the source directory
-source_dir = "data/demo/train-dataset"
-output_dir = "data/demo/train-comment-dataset"
+source_dir = " "
+output_dir = " "
 
 for root, _, files in os.walk(source_dir):
     for filename in files:
